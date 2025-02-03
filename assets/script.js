@@ -102,7 +102,7 @@ document.getElementById("form-validate").addEventListener("submit",function(even
  
     if(UsernameValid == true && UserMailValid == true && UserPhoneValid == true && UserPasswordValid == true && UserCPasswordValid == true){
         alert(`Hi ${userName}, Welcome to Our Website`);
-        console.log(userName,email,password,ConfirmPassword);
+        console.log(userName,email,phone,password,ConfirmPassword);
         
     }
 })
